@@ -43,7 +43,7 @@ class Server:
             return pages
         pages = self.dataset()
         return pages[start:end]
-    
+
     def get_hyper(self, page: int = 1, page_size: int = 10) -> Dict[str, Any]:
         """ returns a dictionary """
         assert type(page) == int and page > 0
