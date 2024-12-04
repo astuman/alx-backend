@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /**
- * Create a job
+ * Create a job 
  */
 import { createQueue } from 'kue';
 

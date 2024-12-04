@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /**
- * Connect to redis server via redis client
+ * Connect to redis server via redis client 
  */
 import { promisify } from 'util';
 import { createClient, print } from 'redis';
