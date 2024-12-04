@@ -38,7 +38,7 @@ app.get('/available_seats', (req, res) => {
     });
 });
 
-app.get('/reserve_seat', (req, res) => { /* eslint-disable-line consistent-return */
+app.get('/reserve_seat', (req, res) => { /*  eslint-disable-line consistent-return */
   if (reservationEnabled === false) {
     return res.json({ status: 'Reservation are blocked' });
   }

@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /**
- * Writing the job creation function
+ * Writing the job creation function 
  */
 function createPushNotificationsJobs(jobs, queue) {
   if (!(jobs instanceof Array)) {

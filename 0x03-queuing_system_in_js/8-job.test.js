@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /**
- * Writing the test for job creation
+ * Writing the test for job creation 
  */
 import { createQueue } from 'kue';
 import chai from 'chai';
